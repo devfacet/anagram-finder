@@ -9,15 +9,16 @@ var anagramFinder = require('../'),
 
 // Tests
 
-// Test for anagram-finder module
+// Test for the module
 describe('anagram-finder', function() {
 
   // Test for find
   describe('find()', function() {
-    var keywords = ['hi', 'hello', 'bye', 'helol', 'abc', 'cab', 'bac', 5, {}, []];
+    var keywords = ['hi', 'hello', 'bye', 'helol', 'abc', 'cab', 'bac', 5, {}, []],
+        findKeywords;
 
     it('should find keywords', function(done) {
-      var findKeywords = anagramFinder.find(keywords);
+      findKeywords = anagramFinder.find(keywords);
       expect(findKeywords).to.be.a('array');
       expect(findKeywords).to.have.property('length').to.be.equal(4);
       expect(findKeywords).to.deep.equal([['hi'], ['hello', 'helol'], ['bye'], ['abc', 'cab', 'bac']]);
@@ -25,7 +26,7 @@ describe('anagram-finder', function() {
     });
 
     it('should fail to find keywords (missing keywords)', function(done) {
-      var findKeywords = anagramFinder.find();
+      findKeywords = anagramFinder.find();
       expect(findKeywords).to.be.equal(false);
       done();
     });
