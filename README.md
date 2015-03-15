@@ -1,29 +1,17 @@
 ## Anagram Finder
+
 [![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-[anagram-finder](http://github.com/cmfatih/anagram-finder) is a Node.js module for 
-finding anagrams. See [Anagram](http://en.wikipedia.org/wiki/Anagram).  
+Anagram Finder is a module for finding anagrams. See [anagram](http://en.wikipedia.org/wiki/Anagram)
+wiki for more details.
 
 ### Installation
 
-For latest release
 ```
 npm install anagram-finder
 ```
 
-For HEAD
-```
-git clone https://github.com/cmfatih/anagram-finder.git
-```
-
 ### Usage
-
-#### Test
-```
-npm test
-```
-
-#### Examples
 
 ```javascript
 var anagramFinder = require('anagram-finder'),
@@ -37,10 +25,6 @@ anagramFinder.find(keywords);
   [ 'abc', 'cab', 'bac' ] ]
 */
 ```
-
-### Changelog
-
-For all notable changes see [CHANGELOG.md](https://github.com/cmfatih/anagram-finder/blob/master/CHANGELOG.md)
 
 ### License
 
