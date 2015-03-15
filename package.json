@@ -1,6 +1,6 @@
 {
   "name": "anagram-finder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Anagram Finder module can be used for finding anagrams.",
   "keywords": [
     "anagram",
