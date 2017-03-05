@@ -1,17 +1,17 @@
-## Anagram Finder
+# Anagram Finder
 
 [![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 Anagram Finder is a module for finding anagrams. See [wiki page](http://en.wikipedia.org/wiki/Anagram)
 for more details.
 
-### Installation
+## Installation
 
 ```
 npm install anagram-finder
 ```
 
-### Usage
+## Usage
 
 ```javascript
 var anagramFinder = require('anagram-finder'),
@@ -26,7 +26,7 @@ anagramFinder.find(keywords);
 */
 ```
 
-### License
+## License
 
 Licensed under The MIT License (MIT)  
 For the full copyright and license information, please view the LICENSE.txt file.
