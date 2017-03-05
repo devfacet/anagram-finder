@@ -1,6 +1,6 @@
 {
   "name": "anagram-finder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module for finding anagrams",
   "main": "index.js",
   "scripts": {
