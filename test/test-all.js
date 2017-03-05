@@ -7,7 +7,6 @@ var anagramFinder = require('../'),
 
 // Tests
 
-// Test for the module
 describe('anagram-finder', function() {
 
   // Test for find

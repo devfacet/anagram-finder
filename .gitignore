@@ -1,14 +1,15 @@
-# Ignored files
+.DS_Store
+Thumbs.db
 
-# Examples
-#
-#   /.tmp-file-*
-#   /tmp-dir/*
-#   /symlink*
-#
-sources/
+*.log
+*.exe
+*.prof
+*.out
+
+tmp/
+logs/
+reports/
+releases/
+vendor/
 node_modules/
 npm-debug.log
-
-*.heapsnapshot
-.DS_Store

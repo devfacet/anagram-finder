@@ -1,36 +1,29 @@
 {
   "name": "anagram-finder",
   "version": "1.0.1",
-  "description": "Anagram Finder module can be used for finding anagrams.",
+  "description": "A module for finding anagrams",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter spec test/test-all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devfacet/anagram-finder.git"
+  },
   "keywords": [
     "anagram",
     "finder",
     "word"
   ],
-  "homepage": "http://github.com/cmfatih/anagram-finder",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cmfatih/anagram-finder.git"
-  },
-  "bugs": {
-    "url": "http://github.com/cmfatih/anagram-finder/issues"
-  },
+  "author": "devfacet",
   "license": "MIT",
-  "private": false,
-  "author": {
-    "name": "cmfatih",
-    "url": "http://github.com/cmfatih"
+  "homepage": "http://github.com/devfacet/anagram-finder",
+  "bugs": {
+    "url": "https://github.com/devfacet/anagram-finder/issues"
   },
-  "contributors": [],
-  "main": "lib/anagram-finder.js",
-  "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --reporter spec test/test-all.js"
-  },
-  "engines": [
-    "node >= 0.10.0"
-  ],
+  "homepage": "https://github.com/devfacet/anagram-finder#readme",
   "devDependencies": {
-    "mocha": "2.2.x",
-    "chai": "2.1.x"
+    "mocha": "3.2.x",
+    "chai": "3.5.x"
   }
 }
