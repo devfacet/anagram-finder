@@ -17,7 +17,7 @@ module.exports = function() {
 
     var result       = [],
         keywordsLen  = keywords.length,
-        keywordsSort = function(a, b) { return a > b; };
+        keywordsSort = function(a, b) { return a > b ? 1 : (a < b ? -1 : 0); };
 
     // Find
     var keywordsGrp = {},
